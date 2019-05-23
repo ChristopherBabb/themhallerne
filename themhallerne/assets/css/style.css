@@ -1,0 +1,371 @@
+@font-face {
+  font-family: 'zapf';
+  src: url("../fonts/Zapf Humanist 601 BT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aktiv-light';
+  src: url("../fonts/AktivGrotesk-Light.ttf") format("truetype");
+  font-weight: light;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aktiv-medium';
+  src: url("../fonts/AktivGrotesk-Medium.ttf") format("truetype");
+  font-weight: medium;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aktiv';
+  src: url("../fonts/AktivGrotesk-Regular.ttf") format("truetype");
+  font-weight: regular;
+  font-style: normal; }
+
+h1 {
+  font-family: zapf;
+  font-weight: normal;
+  color: white;
+  margin: 0; }
+
+h2 {
+  font-family: zapf;
+  font-weight: normal;
+  color: white;
+  margin: 0; }
+
+h3 {
+  font-family: aktiv;
+  color: white;
+  margin: 0; }
+
+p {
+  font-family: aktiv-light;
+  color: white;
+  margin: 0; }
+
+li {
+  font-family: aktiv-light;
+  color: white;
+  list-style: none;
+  margin: 0; }
+
+ul {
+  padding: 5% 0 0 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+/* Header section for mobile */
+header {
+  background-color: #45A6DB;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 414px;
+  background-image: url("../img/littlegirlpoolmobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.intro h1 {
+  font-size: 72px;
+  padding-top: 30%;
+  margin: 0;
+  padding-left: 10%; }
+
+#them-hallerne {
+  padding: 2% 0% 0% 10%;
+  margin: 0; }
+
+.intro h3 {
+  margin: 0;
+  padding: 25% 0 0 10%;
+  font-size: 24px;
+  max-width: 218px; }
+
+#intro-desc {
+  max-width: 318px;
+  margin: 0;
+  padding: 2.5% 0 0 10%;
+  font-size: 18px; }
+
+#mobile-facebook {
+  margin: 0;
+  padding: 20% 0 0 9%; }
+
+#mobile-instagram {
+  margin: 0;
+  padding: 20% 0 0 10%; }
+
+/* Nav for mobile */
+nav {
+  padding-top: 25%;
+  bottom: 0; }
+
+.nav-tabs {
+  padding-left: 10%;
+  border: none; }
+
+.nav-item {
+  color: white;
+  border-style: solid;
+  border-color: white; }
+
+/* Backgrounds for all main sections mobile */
+#nav-sauna {
+  background-color: #45A6DB;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 414px;
+  background-image: url("../img/mobilesauna.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+#nav-them {
+  background-color: #45A6DB;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 414px;
+  background-image: url("../img/mobilehallerne.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+#nav-wellness {
+  background-color: #45A6DB;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 414px;
+  background-image: url("../img/mobilewellness.png");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+/* Saunagus section mobile */
+.discover-mobile {
+  font-size: 62px;
+  padding-top: 30%;
+  margin: 0; }
+
+#sauna-intro {
+  padding-left: 10%;
+  max-width: 318px; }
+
+#sauna-intro p {
+  padding: 2% 0 0 0; }
+
+#sauna-intro h3 {
+  padding: 25% 0 0 0; }
+
+.them-intro {
+  padding-left: 10%;
+  max-width: 318px; }
+
+.tab-pane {
+  color: white; }
+
+.slider {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin: 0 auto; }
+
+.carousel-inner {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.card-border {
+  padding: 5% 0 5% 0;
+  border: white;
+  border-style: solid; }
+
+.carousel-item {
+  padding-bottom: 15%;
+  margin: 0 auto;
+  min-width: 100%; }
+
+.carousel-indicators {
+  padding-top: 15%; }
+
+.anders-img {
+  width: 45%;
+  margin: 0 auto; }
+
+.sara-img {
+  width: 45%;
+  margin: 0 auto; }
+
+.jon-img {
+  width: 45%;
+  margin: 0 auto; }
+
+.mathilde-img {
+  width: 45%;
+  margin: 0 auto; }
+
+.gus-title {
+  text-align: center;
+  padding: 0 15% 0 15%;
+  overflow: hidden; }
+
+.schedule-mobile {
+  padding: 0 0 10% 10%; }
+
+#them-outro {
+  padding-left: 10%;
+  padding-bottom: 20%; }
+
+#them-outro a {
+  color: white;
+  text-decoration: underline; }
+
+/*Footer */
+footer {
+  background-color: #25324C;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 414px;
+  background-size: 100%; }
+
+#footer-container {
+  padding: 10% 0 5% 0; }
+
+footer h2 {
+  text-align: center; }
+
+.mobile-number {
+  height: 75px; }
+
+.mobile-number p {
+  padding-left: 15%;
+  vertical-align: middle; }
+
+.contact {
+  padding: 10% 0 0 10%; }
+
+.mobile-number img {
+  float: left; }
+
+/*Tablet breakpoint*/
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 24px; }
+  h3 {
+    font-size: 36px; }
+  li {
+    font-size: 24px; }
+  header {
+    max-width: 768px;
+    background-image: url("../img/tabletheaderbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .intro h1 {
+    font-size: 96px;
+    padding-top: 20%; }
+  nav {
+    padding-top: 5%; }
+  .nav-item {
+    font-size: 24px; }
+  /* Tablet Sauna */
+  #nav-sauna {
+    max-width: 768px;
+    background-image: url("../img/tabletsaunabackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  footer {
+    width: 100vw;
+    max-width: 768px;
+    background-size: 100%; }
+  .intro h3 {
+    padding-top: 15%;
+    font-size: 36px;
+    max-width: 400px; }
+  #intro-desc {
+    max-width: 500px;
+    font-size: 24px; }
+  #mobile-facebook {
+    margin: 0;
+    padding: 15% 0 10% 9%; }
+  #mobile-instagram {
+    margin: 0;
+    padding: 15% 0 10% 10%; }
+  .discover-mobile {
+    font-size: 72px; }
+  #sauna-intro {
+    max-width: 500px; }
+  .anders-img {
+    width: 35%; }
+  .sara-img {
+    width: 35%; }
+  .jon-img {
+    width: 35%; }
+  .mathilde-img {
+    width: 35%; }
+  .gus-title {
+    text-align: center;
+    padding: 0 15% 0 15%; }
+  /* Tablet Sauna */
+  #nav-sauna {
+    max-width: 768px;
+    background-image: url("../img/tabletsaunabackground.png"); }
+  /* Tablet Them Hallerne section */
+  #nav-them {
+    max-width: 768px;
+    background-image: url("../img/tablethallernebackground.png"); }
+  /*Tablet Wellness section */
+  #nav-wellness {
+    max-width: 768px;
+    background-image: url("../img/tabletwellnessbackground.png"); }
+  .them-intro {
+    max-width: 500px; }
+  .mobile-number p {
+    padding-left: 10%; } }
+
+/* Desktop Breakpoint */
+@media only screen and (min-width: 1190px) {
+  header {
+    max-width: 1190px;
+    background-image: url("../img/desktopheaderbackground.png");
+    background-repeat: no-repeat;
+    background-size: 100%; }
+  .intro h1 {
+    font-size: 96px;
+    padding-top: 10%; }
+  .intro h3 {
+    padding-top: 15%; }
+  #intro-desc {
+    float: left;
+    padding-bottom: 15%; }
+  #mobile-facebook {
+    padding: 0 5% 0 25%; }
+  #mobile-instagram {
+    padding: 0; }
+  nav {
+    clear: both; }
+  /* Desktop Sauna */
+  #nav-sauna {
+    max-width: 1190px;
+    background-image: url("../img/desktopsaunabackground.png"); }
+  /* Desktop Them Hallerne section */
+  #nav-them {
+    max-width: 1190px;
+    background-image: url("../img/desktophallernebackground.png"); }
+  /*Desktop Wellness section */
+  #nav-wellness {
+    max-width: 1190px;
+    background-image: url("../img/desktopwellnessbackground.png"); }
+  .slider {
+    padding-top: 10%;
+    padding-bottom: 5%; }
+  .carousel-item {
+    padding-bottom: 5%; }
+  .anders-img {
+    width: 25%; }
+  .sara-img {
+    width: 25%; }
+  .jon-img {
+    width: 25%; }
+  .mathilde-img {
+    width: 25%; }
+  ul {
+    padding-top: 2%; }
+  footer {
+    max-width: 1190px; } }
